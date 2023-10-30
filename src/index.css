@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    color: white;
+    display: grid;
+    place-content: center;
+    min-height: 100svh;
+    min-width: 375px;
+}
